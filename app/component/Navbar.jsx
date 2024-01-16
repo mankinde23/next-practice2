@@ -4,8 +4,11 @@ import React from "react";
 function Navbar() {
   return (
     <nav>
-      <Link href="/">dami</Link>
-      <Link href="/tickets">money</Link>
+      <h1>Dojo Helpdesk</h1>
+      <Link href="/">Dashboard</Link>
+      <Link href="/tickets" className="mr-auto">
+        Tickets
+      </Link>
     </nav>
   );
 }
